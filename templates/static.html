@@ -1,2 +1,2 @@
 {% set data = load_data(path=page.extra.static_file, format="plain") %}
-{{ data | raw }}
+{{ data | safe }}
